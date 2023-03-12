@@ -313,6 +313,11 @@ margin: auto 15px;
   padding: 5px;
 }
 
+.f-page-form-button:hover {
+  color: #000;
+  background-color: rgb(234, 170, 91);
+}
+
 .f-page-text {
   max-width: 970px;
   background-color: darkorange;
@@ -452,4 +457,125 @@ margin: auto 15px;
     top: 0;
     opacity: 1;
    }
+}
+
+/*           ТАБЫ                        */
+.tabs {
+  max-width: 100%;
+  min-height: calc(100vh - var(--header-height) - var(--footer-height));
+  background-color: #eee;
+  position: relative;
+}
+
+.tabs__header {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  font-size: 1.25rem;
+}
+
+.tab-nav-item {
+  padding: 10px 5px;
+  width: 100%;
+  background-color: darkorange;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.5s all;
+}
+
+.tab-nav-item:hover {
+  color: #000;
+  background-color: rgb(143, 189, 242);
+  border-bottom: 1px solid green;
+}
+
+.tab-nav-item.active {
+  background-color: rgb(80, 33, 209);
+  color: #fff;
+  border-bottom: 1px solid green;
+}
+
+.tabs__body {
+  padding: 10px 10px;
+}
+
+.tabs__content {
+  display: none;
+}
+
+.tabs__content.active {
+  display: block;
+}
+
+.tabs__content-wr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content-t {
+  min-height: 450px;
+  background-color: #dbe8f2;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.content-l {
+  padding-left: 20px;
+  min-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.content-r {
+  padding-left: 20px;
+  min-width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.content-b {
+  padding-top: 10px;
+}
+.save {
+  cursor: pointer;
+  color: #fff;
+  background-color: rgb(16, 120, 47);
+  border: 0px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.save:hover {
+  color: #000;
+  background-color: rgb(65, 234, 116);
+}
+
+.reset {
+  cursor: pointer;
+  color: #fff;
+  background-color: darkorange;
+  border: 0px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.reset:hover {
+  color: #000;
+  background-color: rgb(234, 170, 91);
+}
+
+.service {
+  cursor: pointer;
+  color: #fff;
+  background-color: rgb(39, 16, 153);
+  border: 0px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.service:hover {
+  color: #000;
+  background-color: rgb(109, 123, 244);
 }
