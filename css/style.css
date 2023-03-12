@@ -579,3 +579,11 @@ margin: auto 15px;
   color: #000;
   background-color: rgb(109, 123, 244);
 }
+
+.copy-text {
+  cursor: pointer;
+}
+
+.copy-text:hover {
+  color: #3298e6;
+}

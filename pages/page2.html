@@ -72,6 +72,7 @@
         <div class="content-b">
           <button class="save" >Сохранить</button>
           <button class="reset" >Отмена</button>
+          <button class="look">Копировать в буфер</button>
         </div>
       </div> 
       </div>
@@ -126,6 +127,7 @@
         <div class="content-b">
           <button class="save" >Сохранить</button>
           <button class="reset" >Отмена</button>
+          <button class="look">Копировать в буфер</button>
         </div>
       </div> 
 
@@ -183,6 +185,7 @@
       <div class="content-b">
         <button class="save" >Сохранить</button>
         <button class="reset" >Отмена</button>
+        <button class="look">Копировать в буфер</button>
       </div>
     </div> 
 
@@ -207,9 +210,38 @@
       </ul>   
   </nav>
 </div>
+
+
+
+<div id="mypopup" class="popup">
+  <div class="popup-content">
+      <div class="popup-header">
+            <h2>Шорткоды</h2>
+            <span class="close">&times;</span>
+      </div>
+      <div class="popup-body">
+        <p class="popup-body-title">Нажмите на шорткод, что-бы скопировать в буфер обмена</p> <br>
+        <br>
+      
+        <p><span class="copy-text">&#10066;</span>{name} - имя</p> <br>
+        <p><span class="copy-text">&#10066;</span>{email} - email</p> <br>
+        <p><span class="copy-text">&#10066;</span>{phone} - телефон отформатированный</p> <br>
+        <p><span class="copy-text">&#10066;</span>{phone-user} - телефон, как указал пользователь</p> <br>
+        <p><span class="copy-text">&#10066;</span>{utm-sourse} - utm-sourse</p> <br>
+        <p><span class="copy-text">&#10066;</span>{utm-medium} - utm-medium</p>  <br>
+        <p><span class="copy-text">&#10066;</span>{utm-campaign} - utm-campaign</p> <br>
+        
+        
+      </div>
+      <div class="popup-footer">
+      </div>
+  </div>
+</div>
 </div>
 <!-- JavaScript Bundle with Popper -->
 <script src="../js/menu.js"></script>
 <script src="../js/tab.js"></script>
+<script src="../js/popup.js"></script>
+<script src="../js/bufer.js"></script>
 </body>
 </html>
