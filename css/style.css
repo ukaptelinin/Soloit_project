@@ -587,3 +587,7 @@ margin: auto 15px;
 .copy-text:hover {
   color: #3298e6;
 }
+
+.help {
+  cursor: pointer;
+}
